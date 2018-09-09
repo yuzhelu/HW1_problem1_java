@@ -2,11 +2,11 @@ package com.company;
 
 public class Customer {
     int accountNumber;
-    int monthBalance;
-    int totalCharge;
-    int credits;
+    private int monthBalance;
+    private int totalCharge;
+    private int credits;
     int creditLimit;
-    int newBalance;
+    private int newBalance;
 
     Customer(int accountNumber, int monthBalance, int totalCharge, int credits, int creditLimit){
         this.accountNumber = accountNumber;
